@@ -77,7 +77,7 @@ $optParams = array('filter' => 'free-ebooks');
 $results = $service->volumes->listVolumes('Henry David Thoreau', $optParams);
 
 foreach ($results as $item) {
-  echo $item['volumeInfo']['title'], "<br /> \n";
+  echo $item['volumeInfo']['title'] . "<br /> \n";
 }
 ```
 
